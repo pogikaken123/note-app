@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h1>Welcome to Note App </h1>
+      <h1>Welcome to Note App</h1>
       <router-link to="/login">Login</router-link> |
       <router-link to="/about">Register</router-link>
     </div>

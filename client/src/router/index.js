@@ -12,7 +12,7 @@ const routes = [
     component: Home,
     meta: {
       requiresAuth: true
-  }
+    }
   },
   {
     path: "/register",
@@ -29,8 +29,8 @@ const routes = [
     component: Login,
     meta: {
       guest: true
+    }
   }
-  },
 ];
 
 const router = new VueRouter({
